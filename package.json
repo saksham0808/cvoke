@@ -1,6 +1,6 @@
 {
   "name": "cvoke",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Command-line utility alternative to searching in your bash history, by stashing commonly used commands and invoking them with variable arguements.",
   "main": "app.js",
   "scripts": {
