@@ -1,0 +1,28 @@
+{
+  "name": "cvoke",
+  "version": "1.0.0",
+  "description": "Command-line utility alternative to searching in your bash history, by stashing commonly used commands and invoking them with variable arguements.",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saksham0808/cvoke.git"
+  },
+  "keywords": [
+    "command-line"
+  ],
+  "author": "Saksham Sharma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saksham0808/cvoke/issues"
+  },
+  "homepage": "https://github.com/saksham0808/cvoke#readme",
+  "dependencies": {
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "cvoke": "app.js"
+  }
+}
