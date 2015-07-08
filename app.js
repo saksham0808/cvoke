@@ -15,11 +15,6 @@ program
     .action(functions.createInvoke);
 
 program
-    .command('view [invoke-name]')
-    .description('View an existing command')
-    .action(functions.viewInvoke);
-
-program
     .command('list')
     .description('List all invoke-commands')
     .action(functions.listInvokes);
@@ -31,7 +26,7 @@ program
 
 // By default display all the snips
 if (!process.argv.slice(2).length) {
-    functions.listSnippets();
+    functions.listInvokes();
 }
 
 // Parse arguments
