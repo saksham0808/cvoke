@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/saksham0808/cvoke#readme",
   "dependencies": {
+    "commander": "^2.8.1"
   },
   "preferGlobal": "true",
   "bin": {
