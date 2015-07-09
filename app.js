@@ -6,8 +6,10 @@ var program = require('commander');
 // The functionalities
 var functions = require('./lib/functions.js');
 
+functions.checkRootFolder();
+
 program
-    .version('1.0.0');
+    .version('0.1.0');
 
 program
     .command('new [invoke-name]')
@@ -24,7 +26,7 @@ program
     .description('Invoke the specified command')
     .action(functions.wakeInvoke);
 
-// By default display all the snips
+// By default display all the invokes
 if (!process.argv.slice(2).length) {
     functions.listInvokes();
 }
